@@ -22,14 +22,15 @@ Thank you for getting to this point. This repository was created for a training 
 - Integration TestNG and Maven
 - Profiling (mvn test -PNAME)
 
-**Prerequisites (in this case):**
+## **Prerequisites (in this case):**
 - Java JDK
 - Maven folder unzipped
 - Proper setup for System variables environment
 - Eclipse IDE
 
-**Usage**
+## **Usage**
 You can clone the project. Open a terminal and go to the project folder.
+
 Use the following commands for test:
 - `mvn test` to run all available tests
 - `mvn test -PRegression` to run the profile that holds tests for Regression testing
