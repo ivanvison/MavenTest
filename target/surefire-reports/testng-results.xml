@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+<testng-results ignored="0" total="7" passed="6" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-04-14T19:23:42 BOT" name="Suite" finished-at="2022-04-14T19:23:42 BOT" duration-ms="106">
+  <suite started-at="2022-04-14T19:32:24 BOT" name="Command line suite" finished-at="2022-04-14T19:32:24 BOT" duration-ms="88">
     <groups>
     </groups>
-    <test started-at="2022-04-14T19:23:42 BOT" name="Test" finished-at="2022-04-14T19:23:42 BOT" duration-ms="106">
+    <test started-at="2022-04-14T19:32:24 BOT" name="Command line test" finished-at="2022-04-14T19:32:24 BOT" duration-ms="88">
       <class name="ivanmaventest.Mavenjava.RESTAPITest">
-        <test-method signature="DeleteTweet()[pri:0, instance:ivanmaventest.Mavenjava.RESTAPITest@1f3f4916]" started-at="2022-04-14T19:23:42 BOT" name="DeleteTweet" finished-at="2022-04-14T19:23:42 BOT" duration-ms="13" status="PASS">
+        <test-method signature="DeleteTweet()[pri:0, instance:ivanmaventest.Mavenjava.RESTAPITest@2357d90a]" started-at="2022-04-14T19:32:24 BOT" name="DeleteTweet" finished-at="2022-04-14T19:32:24 BOT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DeleteTweet -->
-        <test-method signature="PostJira()[pri:0, instance:ivanmaventest.Mavenjava.RESTAPITest@1f3f4916]" started-at="2022-04-14T19:23:42 BOT" name="PostJira" finished-at="2022-04-14T19:23:42 BOT" duration-ms="0" status="PASS">
+        <test-method signature="PostJira()[pri:0, instance:ivanmaventest.Mavenjava.RESTAPITest@2357d90a]" started-at="2022-04-14T19:32:24 BOT" name="PostJira" finished-at="2022-04-14T19:32:24 BOT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PostJira -->
       </class> <!-- ivanmaventest.Mavenjava.RESTAPITest -->
       <class name="ivanmaventest.Mavenjava.AppiumTest">
-        <test-method signature="IOSApp()[pri:0, instance:ivanmaventest.Mavenjava.AppiumTest@5cee5251]" started-at="2022-04-14T19:23:42 BOT" name="IOSApp" finished-at="2022-04-14T19:23:42 BOT" duration-ms="5" status="FAIL">
+        <test-method signature="IOSApp()[pri:0, instance:ivanmaventest.Mavenjava.AppiumTest@770c2e6b]" started-at="2022-04-14T19:32:24 BOT" name="IOSApp" finished-at="2022-04-14T19:32:24 BOT" duration-ms="15" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -52,24 +52,42 @@ at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
 at org.testng.TestNG.runSuites(TestNG.java:1092)
 at org.testng.TestNG.run(TestNG.java:1060)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- IOSApp -->
-        <test-method signature="NativeAPPAndroid()[pri:0, instance:ivanmaventest.Mavenjava.AppiumTest@5cee5251]" started-at="2022-04-14T19:23:42 BOT" name="NativeAPPAndroid" finished-at="2022-04-14T19:23:42 BOT" duration-ms="3" status="PASS">
+        <test-method signature="NativeAPPAndroid()[pri:0, instance:ivanmaventest.Mavenjava.AppiumTest@770c2e6b]" started-at="2022-04-14T19:32:24 BOT" name="NativeAPPAndroid" finished-at="2022-04-14T19:32:24 BOT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NativeAPPAndroid -->
       </class> <!-- ivanmaventest.Mavenjava.AppiumTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      <class name="ivanmaventest.Mavenjava.SeleniumTest">
+        <test-method signature="BrowserAutomation()[pri:0, instance:ivanmaventest.Mavenjava.SeleniumTest@6328d34a]" started-at="2022-04-14T19:32:24 BOT" name="BrowserAutomation" finished-at="2022-04-14T19:32:24 BOT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserAutomation -->
+        <test-method signature="ElementsUi()[pri:0, instance:ivanmaventest.Mavenjava.SeleniumTest@6328d34a]" started-at="2022-04-14T19:32:24 BOT" name="ElementsUi" finished-at="2022-04-14T19:32:24 BOT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ElementsUi -->
+        <test-method signature="Login()[pri:0, instance:ivanmaventest.Mavenjava.SeleniumTest@6328d34a]" started-at="2022-04-14T19:32:24 BOT" name="Login" finished-at="2022-04-14T19:32:24 BOT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+      </class> <!-- ivanmaventest.Mavenjava.SeleniumTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
 </testng-results>

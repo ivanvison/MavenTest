@@ -28,3 +28,9 @@ Thank you for getting to this point. This repository was created for a training 
 - Proper setup for System variables environment
 - Eclipse IDE
 
+**Usage**
+You can clone the project. Open a terminal and go to the project folder.
+Use the following commands for test:
+- `mvn test` to run all available tests
+- `mvn test -PRegression` to run the profile that holds tests for Regression testing
+- `mvn test -PSmoke` to run the profile that holds tests for Smoke testing
